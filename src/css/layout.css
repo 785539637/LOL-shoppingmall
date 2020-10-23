@@ -1,0 +1,29 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,input,textarea,select,a,span,img,li{margin:0;padding:0}
+body{
+	font-size: 12px; font-family: "微软雅黑"; color: #333;
+}
+a{
+	text-decoration: none; 
+	color: #333;
+}
+img{
+	vertical-align: top; border: 0;
+}
+ul li,ol li{
+	list-style: none;
+}
+h1,h2,h3,h4{
+	font-weight: normal;
+}
+i,em{
+	font-style: normal;
+}
+
+.clearfix:after{
+	content: ""; display: block; height: 0; font-size: 1px; clear: both; overflow: hidden;
+	visibility: hidden;
+}
+.fl{ float: left;}
+.fr{
+	float: right;
+}
